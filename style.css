@@ -102,7 +102,6 @@ nav {
     height: 500px;
     width:100%;
     padding-bottom: 5%;
-
 }
 .wwd-left{
     position: relative;
@@ -391,4 +390,61 @@ hr.solid {
 }
 .container-body{
 	padding-top:50px;
+}
+
+/* DIVISION */
+.divisi{
+    background-color: white;
+    height: 300px;
+    width:100%;
+    padding-bottom: 5%;
+}
+.divisi-judul{
+	text-align: center;
+	width: 100%;
+	padding: 0;
+}
+.divisi-item{
+	height: 250px;
+	width: 333px;
+	display: inline-block;
+}
+.divisi-content{
+    padding-left: 10%;
+	padding-right: 5%;
+	align-items: center;
+	justify-content: center;
+}
+.divisi-satu{
+	background: url(img/gray-training.jpeg);
+	background-size: contain;
+	transition: all .2s ease-in-out; 
+}
+.divisi-dua{
+	background: url(img/gray-berflower.jpeg);
+	background-size: contain;
+	transition: all .2s ease-in-out; 
+}
+.divisi-tiga{
+	background: url(img/gray-hpd.jpeg);
+	background-size: contain;
+	transition: all .2s ease-in-out; 
+}
+.divisi-satu:hover{
+	background: url(img/color-training.jpeg);
+	background-size: contain;
+	cursor: pointer;
+	transform: scale(1.05); 
+}
+.divisi-dua:hover{
+	background: url(img/color-berflower.jpeg);
+	background-size: contain;
+	cursor: pointer;
+	transform: scale(1.05); 
+}
+.divisi-tiga:hover{
+	background: url(img/color-hpd.jpeg);
+	background-size: contain;
+	cursor: pointer;
+	transform: scale(1.05); 
 }
