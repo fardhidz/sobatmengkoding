@@ -389,3 +389,6 @@ hr.solid {
 	min-height: 300px;
 	border: solid red 1px;
 }
+.container-body{
+	padding-top:50px;
+}
