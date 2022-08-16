@@ -448,3 +448,21 @@ hr.solid {
 	cursor: pointer;
 	transform: scale(1.05); 
 }
+/*MAIN*/
+.main1{
+	font-size: 130%;
+	line-height: 20px;
+}
+.main2{
+	font-size: 150%;
+	line-height: 0cm;
+}
+.main3{
+	font-size: 110%;
+	letter-spacing: 8px;
+	line-height: 50px;
+}
+.main4{
+	font-size: 110%;
+	letter-spacing: 5px;
+}
